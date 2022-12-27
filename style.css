@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #E8F1FF;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover {
+    cursor: pointer;
+}
+
+.rightnav {
+    display: flex;
+    width: 80%;
+
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    list-style: none;
+    font-size: 25px;
+    padding: 21px 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlist li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.leftnav {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+
+}
+
+.leftnav button {
+    color: white;
+    font-size: 20px;
+    background-color: #181D31;
+    border: 2px solid #181D31;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 10px;
+    height: 47px;
+}
+
+.leftnav button:hover {
+    background-color: #E8F1FF;
+    color: #454B55;
+    cursor: pointer;
+}
+
+.header2 {
+    display: flex;
+    width: 100%;
+    background-color: #E8F1FF;
+}
+
+.right {
+    width: 60%;
+    padding: 150px 198px;
+}
+
+.right h1 {
+    font-size: 60px;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #112752;
+
+}
+
+.right p {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 30px 0px;
+    color: #454B55;
+}
+
+.left {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.left img {
+    width: 550px;
+}
+
+.buttons {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.buttons button {
+    background-color: #112752;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid #112752;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 156px;
+    justify-content: center;
+}
+
+.buttons img {
+    width: 23px;
+}
+
+.buttons button:hover {
+    background-color: #E8F1FF;
+    color: #112752;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #F5F7FB;
+    padding: 100px 198px;
+}
+
+.content h3 {
+    padding: 20px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #112752;
+
+}
+
+.content p {
+    text-align: left;
+    font-size: 20px;
+    color: #112752;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+.line{
+    background-color: black;
+    width: 23px;
+    margin: 5px 3px;
+    height: 4px;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    top: 21px;
+    
+    display: none;
+}
+
+.footer{
+    background-color: #041028;
+    color: #E8F1FF;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 266px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer ul li{
+    list-style: none;
+    padding: 5px;
+    font-weight: 100;
+   
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+.footer h4{
+    text-decoration: underline;
+    
+    color:#99bcf3; ;
+    padding: 10px;
+
+
+}
+.footer ul li a:hover{
+    color: #c6cad2;
+}
+.copyright{
+    padding: 1% 0.5%;
+    font-family: 'Inter', sans-serif;
+    background-color: #282a2c;
+    color: white;
+    
+}
+
+.twitter{
+width: 33px;
+position: relative;
+top: 7px;
+}
+.fb{
+ width:20px;   
+}
+.insta{
+  width: 20px;  
+}
+.github{
+  width: 25px; 
+  position: relative;
+top: 3px; 
+}
+.copyright img{
+    position: relative;
+    right: -700px;
+    
+}
+
+
